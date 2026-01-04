@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: Nunito;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 20px;
+
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-weight: 500;
+}
+li{
+    text-align: justify;
+    height: 25px;
+   padding: 8px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+li:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: larger;
+}
+.username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    background-color: #E6F6FF;
+    color: #65C3FF;
+    border-radius: 12px;font-weight: 600;
+}
+.username:hover{
+    scale: 1.09;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.hero{
+    background-color: rgb(242, 247, 252);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+}
+.offer{
+    width: 39vw;
+}
+.offer h1{
+    font-size: 40px;
+    color: #495965;
+    
+}
+.laundryService{
+    font-size: 40px;
+    color: #26B1FF;
+}
+.laundryimg img{
+    height: 350px;
+    width: 350px;
+}
+button{
+    margin-top: 26px;
+    background-color: #26B1FF;
+    width: 20vw;
+    height: 60px;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+    font-size: smaller;
+}
